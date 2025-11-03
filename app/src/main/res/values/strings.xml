@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThirtyDaysApp</string>
+    <string name="test_title">Test Title</string>
+    <string name="test_caption">Test caption</string>
+</resources>
