@@ -1,2 +1,2 @@
 # ThirtyDaysApp
-An Android application showing 30 tips, one for each day
+To view more information about this application and clone the project, please go to the "initial-version" branch.
