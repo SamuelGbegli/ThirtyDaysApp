@@ -2,4 +2,600 @@
     <string name="app_name">ThirtyDaysApp</string>
     <string name="test_title">Test Title</string>
     <string name="test_caption">Test caption</string>
+
+    <!--General strings, only used once in the application-->
+    <string name="logo_descriptor">A logo for the programming language </string>
+    <string name="coding_sample">Coding sample</string>
+    <string name="about_this_app">About this application</string>
+    <string name="app_information">
+        This application shows a list of 30 programming languages. Each card features information
+        about a specific language and an image showcasing a sample program written in that
+        language.
+    </string>
+    <string name="app_information_2">
+        The programs featured have been tested with a variety of compilers, including
+        those on the website JDoodle (https://www.jdoodle.com). Please note that some of these
+        programs may not work depending on the language version or software you are using.
+    </string>
+
+    <!--Stores the names of the programming languages-->
+    <string name="c_caption">C</string>
+    <string name="c_plus_plus_caption">C++</string>
+    <string name="java_caption">Java</string>
+    <string name="kotlin_caption">Kotlin</string>
+    <string name="python_caption">Python</string>
+    <string name="javascript_caption">JavaScript</string>
+    <string name="typescript_caption">TypeScript</string>
+    <string name="haskell_caption">Haskell</string>
+    <string name="c_sharp_caption">C#</string>
+    <string name="rust_caption">Rust</string>
+    <string name="scala_caption">Scala</string>
+    <string name="go_caption">Go</string>
+    <string name="elixir_caption">Elixir</string>
+    <string name="basic_caption">BASIC</string>
+    <string name="ada_caption">Ada</string>
+    <string name="ocaml_caption">OCaml</string>
+    <string name="visual_basic_dotnet_caption">Visual Basic (.NET)</string>
+    <string name="cobol_caption">COBOL</string>
+    <string name="r_caption">R</string>
+    <string name="swift_caption">Swift</string>
+    <string name="lua_caption">Lua</string>
+    <string name="f_sharp_caption">F#</string>
+    <string name="objective_c_caption">Objective-C</string>
+    <string name="ruby_caption">Ruby</string>
+    <string name="sql_caption">SQL</string>
+    <string name="php_caption">PHP</string>
+    <string name="bash_caption">Bash script</string>
+    <string name="fortran_caption">Fortran</string>
+    <string name="elm_caption">Elm</string>
+    <string name="assembly_caption">Assembly</string>
+
+    <!--Stores the descriptions for the programming languages-->
+    <string name="c_description">
+        C was introduced in the early 1970s and developed by Dennis Ritchie at Bell Labs. The
+        programming language has been used in a wide variety of applications, including operating
+        systems and graphical user interfaces, and can grant the user access to memory locations in
+        the computer.
+    </string>
+    <string name="c_plus_plus_description">
+        C++ was introduced in 1985. An extension of C, it is mainly known for implementing
+        object-orientated programming with classes, and is the basis of many applications, including
+        compilers used to run scripts from other programming languages.
+    </string>
+    <string name="java_description">
+        Java is an object-oriented language released in 1995. Java applications run via a Java
+        virtual machine installed on a host device, meaning the programmer can write an application
+        once and run it on multiple devices without recompiling the application.
+    </string>
+    <string name="kotlin_description">
+        Kotlin is a language known for being interoperable with Java, a more concise syntax and
+        features to ensure safe access to variables. It is the preferred language for developing
+        Android applications, superseding Java.
+    </string>
+    <string name="python_description">
+        Python was introduced in 1991 and is widely used as an introductory programming language,
+        with a philosophy of user readable code and using indentation to separate blocks of code.
+        Python is an interpreted language, meaning that code is run one line at a time instead of
+        needing to be built and compiled.
+    </string>
+    <string name="javascript_description">
+        JavaScript is used to create interactive content on websites, and alongside HTML and CSS, is
+        a core component of the world wide web. JavaScript code usually runs in the user’s web
+        browser, making it a client end language.
+    </string>
+    <string name="typescript_description">
+        TypeScript is an extension of JavaScript introduced in 2012. Its main feature is the use of
+        static typing to variables, similar to what’s used in languages like Java and C#, making it
+        ideal for more complex projects where variable typing is important.
+    </string>
+    <string name="haskell_description">
+        Haskell is an example of a functional programming language, first introduced in 1990.
+        Variables are stored as the results of functions defined by the user instead of being
+        directly assigned to at runtime, reducing possible side effects at runtime.
+    </string>
+    <string name="c_sharp_description">
+        C# is a language that was developed by Microsoft staff and became widely available starting
+        in 2000. The language is used throughout Microsoft’s .NET framework, with applications
+        including use in desktop programs and web backends.
+    </string>
+    <string name="rust_description">
+        Rust is a low-level programming language designed with an emphasis on performance and
+        protected memory. Rust is known for the use of “borrow checking” instead of a typical
+        garbage collector, making applications more lightweight.
+    </string>
+    <string name="scala_description">
+        Scala is a high-level programming language with support for both object-oriented and
+        functional programming paradigms. Designed to be concise, Scala code can run on top of
+        platforms such as the Java Virtual Machine and JavaScript.
+    </string>
+    <string name="go_description">
+        Go is a compiled high level programming language originally developed by staff at Google,
+        with a syntax designed to be simple enough to improve productivity. Go has been adopted by a
+        number of high profile companies, including Microsoft and Dropbox.
+    </string>
+    <string name="elixir_description">
+        Elixir is a functional programming introduced in 2012, emphasising features like
+        lightweight, scalable code and fault tolerance. Running on top of the Erlang virtual
+        machine, Elixir code can be used for a variety of platforms including web development and
+        embedded programs.
+    </string>
+    <string name="basic_description">
+        BASIC is a family of languages designed to make programming accessible to people in a
+        non-scientific background and was widely used in various home computers from companies like
+        Apple and Commodore. In many BASIC implementations, lines of code begin with a number that
+        can be referenced in later parts of the program.
+    </string>
+    <string name="ada_description">
+        Ada is an object-orientated language originally used for embedded systems and is known for
+        strong typing and favouring English words over symbols. Named after programmer Ada Lovelace,
+        the language was developed under contract for the United States Department of Defence to
+        replace over 400 languages that were being used.
+    </string>
+    <string name="ocaml_description">
+        OCaml is an object-oriented extension of the earlier Caml language, a dialect of the ML
+        language, and supports multiple programming paradigms. OCaml was developed at Inria in
+        France and debuted in 1996, and has influenced future languages like Scala and Rust.
+    </string>
+    <string name="visual_basic_description">
+        Visual Basic can refer to two languages developed by Microsoft: the original "classic"
+        version based on BASIC, and a successor language that targets the .NET Framework. Both are
+        used in the development of desktop applications with the Windows Forms library. The version
+        featured in this application is the .NET version of the language.
+    </string>
+    <string name="cobol_description">
+        COBOL is a compiled language that was first released in the 1960s, initially supporting
+        procedural and imperative programming. Widely used in business and financial environments,
+        most COBOL programming is dedicated to maintain existing applications, as newer languages
+        are used for more modern applications.
+    </string>
+    <string name="r_description">
+        R is a language used mainly for statistical computing. Data represented in R code can be
+        displayed through the use of graphics, including lines, bars and pie charts.
+    </string>
+    <string name="swift_description">
+        Swift is a general-purpose language that was originally developed for Apple and introduced
+        in 2010. In addition to being used for Apple\'s platforms, the language emphasises
+        scalability, a concise syntax and interoperability with C and C++.
+    </string>
+    <string name="lua_description">
+       Lua is a high level, interpreted language that debuted in 1993, and is known for being used
+        in embedded systems and scripting video games. As the interpreter is written in C and the
+        language includes a C application programming interface, Lua can run on multiple platforms.
+    </string>
+    <string name="f_sharp_description">
+        F# is an open-source language that originated as an implementation of the OCaml language for
+        the .NET platform, and is designed primarily as a functional programming language. F# code
+        can also run in JavaScript environments
+    </string>
+    <string name="objective_c_description">
+        Objective-C is an object-orientated language based on C, with the addition of message
+        passing inspired by the language Smalltalk. Objective-C was the primarily language used by
+        the company NeXT, and later Apple following NeXT\’s acquisition in 1997.
+    </string>
+    <string name="ruby_description">
+        Ruby is a high-level interpreted language that was developed in the 1990s, with an emphasis
+        on simplicity. Every item in Ruby is treated as an object. Ruby is also the basis of the
+        Ruby on Rails framework, used to develop dynamic websites.
+    </string>
+    <string name="sql_description">
+        SQL is a language used to create and modify databases and their records, and the language
+        comes in several dialects for various database management systems (DBMS). Code can be saved
+        in the form of a stored procedure, allowing the user to repeatedly make the same query by
+        running the procedure.
+    </string>
+    <string name="php_description">
+        PHP is a general-purpose language that focuses on server-side web development. PHP code can
+        be embedded in HTML, and differs from other scripting languages (e.g., JavaScript) by having
+        code run server-side, meaning the end user is unaware of the underlying code that is
+        running.
+    </string>
+    <string name="bash_description">
+        Bash is a command line shell that runs on Unix and Unix-like operating systems, allowing the
+        user to enter commands to perform a variety of actions. Commands can be saved as a script
+        file, which are automatically performed by shell upon being opened.
+    </string>
+    <string name="assembly_description">
+        Assembly code refers to any low-level code with an instruction set that correspond closely
+        with those of a computer\'s central processing unit (CPU). As CPUs can have different
+        architectures, instruction sets can vary depending on the CPU the code targets (e.g., x86
+        and ARM are two different CPU architectures and therefore have incompatible instruction
+        sets).
+    </string>
+    <string name="fortran_description">
+        Fortran is a high-level and compiled programming language that was designed at IBM in 1957
+        and was initially developed as an alternative to using assembly code. Modern uses of Fortran
+        include scientific computing and creating programs to measure the performance of
+        supercomputers.
+    </string>
+    <string name="elm_description">
+        Elm is a functional language that compiles to JavaScript and is designed for creating
+        graphical user interfaces for web applications. Elm emphasises fast performance and error
+        messages designed to be clearly understood by developers.
+    </string>
+
+    <!--Stores brief explanations of the sample code-->
+    <string name="c_code_summary">
+        The following code creates an array of characters that make up the word \"Hello\" and prints
+        the array to the console.
+    </string>
+    <string name="c_plus_plus_code_summary">
+        The following initialises and prints two integers alongside two strings.
+    </string>
+    <string name="java_code_summary">
+        The following prints "Hello, world" to the console.
+    </string>
+    <string name="kotlin_code_summary">
+        The following initialises a integer, then prints one of two values depending on
+        whether the integer is odd or even.
+    </string>
+    <string name="python_code_summary">
+        The following code initialises a variable i, then continuously prints the value of i until
+        the value exceeds 20.
+    </string>
+    <string name="javascript_code_summary">
+        The following opens an prompt dialog asking the user to enter a name, then shows the user\'s
+        input as a string in an alert dialog.
+    </string>
+    <string name="typescript_code_summary">
+        The following initialises a string and number variable, then prints the variables\' types to
+        the console.
+    </string>
+    <string name="haskell_code_summary">
+        The following creates a function that returns the sum of two integers, then calls the
+        function and prints the result.
+    </string>
+    <string name="c_sharp_code_summary">
+        The following takes user input from the console, then prints the input back to the console.
+    </string>
+    <string name="rust_code_summary">
+        The following initialises two variables, then prints the value of one variable and a sum
+        involving the other to the console.
+    </string>
+    <string name="scala_code_summary">
+        The following defines a function that returns the square of an integer, then calls and
+        prints the result of the function.
+    </string>
+    <string name="go_code_summary">
+        The following prints \"Go!\" to the console 20 times.
+    </string>
+    <string name="elixir_code_summary">
+        The following initialises a numeric variable, then appends the number to a declared string
+        variable which is printed to the console.
+    </string>
+    <string name="basic_code_summary">
+        The following prints \"HELLO WORLD\" infinitely.
+    </string>
+    <string name="ada_code_summary">
+        The following outputs the message \"Hello, world\" 10 times.
+    </string>
+    <string name="ocaml_code_summary">
+        The following defines a function to return the triangular number of an integer, then calls
+        the function and prints the output.
+    </string>
+    <string name="visual_basic_code_summary">
+        The following initialises a variable i, then prints the value of i and subtracts 1 from i
+        until the value is 0.
+    </string>
+    <string name="cobol_code_summary">
+        The following defines a variable x, then prints the variable to the console.
+    </string>
+    <string name="r_code_summary">
+        The following generates a graph with the plotted values corresponding to a set of numbers
+        and their squares. Square numbers are represented on the Y axis of the graph.
+    </string>
+    <string name="swift_code_summary">
+        The following initialises a variable, then repeatedly adds 1 to the variable and prints the
+        value until the variable exceeds 10.
+    </string>
+
+    <string name="lua_code_summary">
+        The following creates a table, then loops through the table\'s contents and prints out each
+        value.
+    </string>
+    <string name="f_sharp_code_summary">
+        The following defines a function that takes a list of numbers and prints the square of each
+        value, then calls the function with an initialised list of numbers from 1 to 6.
+    </string>
+    <string name="objective_c_code_summary">
+        The following creates an array of string objects, then prints out the array\'s values one at
+        a time to the console.
+    </string>
+    <string name="ruby_code_summary">
+        The following initialises an array, then prints each item in the array with their index in
+        the array.
+    </string>
+    <string name="sql_code_summary">
+        The following returns all records and columns from a hypothetical table, SampleTable, where
+        the value of SampleColumn is larger than 3.
+    </string>
+    <string name="php_code_summary">
+        The following defines two variables and outputs to the webpage one of 3 messages if one
+        variable is smaller than, equal to or larger than the other.
+    </string>
+    <string name="bash_code_summary">
+        The following takes input the user submits via the console, then prints the user\'s input
+        in capital letters.
+    </string>
+    <string name="assembly_code_summary">
+        The following uses registers to print\ "Hello, world\" to the console. This is for an x86
+        based processor with the nasm compiler.
+    </string>
+    <string name="fortran_code_summary">
+        The following defines a variable with the contents \"Hello, world\", then prints the variable
+        to the console.
+    </string>
+    <string name="elm_code_summary">
+        The following defines a list of numbers, then displays the length of the list to the
+        webpage.
+    </string>
+
+    <!--Stores content descriptions for the sample code images-->
+    <string name="c_code_image_description">
+        #include &lt; stdio.h &gt;
+
+        int main() {
+
+          char hello[6] = {\'H\', \'e\', \'l\', \'l\', \'o\', \'\\0\'};
+          printf(hello);
+
+          return 0;
+        }
+    </string>
+    <string name="c_plus_plus_code_image_description">
+        #include &lt;iostream&gt;
+        using namespace std;
+
+        int main(){
+
+            int x = 4;
+            int y = 5;
+
+            cout &lt; &lt; \"The value of x is \" &lt; &lt; x &lt; &lt; \" and the value of y is \" &lt;
+            &lt; y;
+
+            return 0;
+        }
+    </string>
+    <string name="java_code_image_description">
+        public class JavaSample {
+            public static void main(String[] args) {
+                System.out.println(\"Hello, world\");
+            }
+        }
+    </string>
+    <string name="kotlin_code_image_description">
+        fun main(){
+            val x: Int = 5
+            when (x % 2 == 0){
+                true -> println(\"X is even\")
+                else -> println(\"X is odd\")
+            }
+        }
+    </string>
+    <string name="python_code_image_description">
+        for i in range(1, 21):
+            print(\"Value of i: \" + str(i))
+    </string>
+    <string name="javascript_code_image_description">
+        let input = prompt(\"What is your name?\");
+        alert(`Hello ${input}`);
+    </string>
+    <string name="typescript_code_image_description">
+        let x: string = /"string/";
+        let y: number = 27;
+
+        console.log(`The type of x is ${typeof(x)} and y is ${typeof(y)}`);
+    </string>
+    <string name="haskell_code_image_description">
+        add :: Int -> Int -> Int
+        add x y = x + y
+
+        main = do
+            print (add 2 4)
+    </string>
+    <string name="c_sharp_code_image_description">
+        using System;
+
+        public class CSharpSample
+        {
+            public static void Main(string[] args)
+            {
+                Console.WriteLine(\"Type text to the console, then press enter: \");
+                var x = Console.ReadLine();
+                Console.WriteLine ($\"You entered {x}\");
+            }
+        }
+    </string>
+    <string name="rust_code_image_description">
+        fn main() {
+            let x = 2;
+            let y = 3;
+            println!(\"x = {x}, x + y = {}\", x + y);
+        }
+    </string>
+    <string name="scala_code_image_description">
+        def square (x: Int) = x * x
+
+        def main(): Unit =
+          println(square(4))
+    </string>
+    <string name="go_code_image_description">
+        package main
+
+        import \"fmt\"
+
+        func main() {
+            for range 20 {
+                fmt.Println(\"Go!\")
+            }
+        }
+    </string>
+    <string name="elixir_code_image_description">
+        number = 27
+        output = \"The value of number is #{number}\"
+        IO.puts(output)
+    </string>
+    <string name="basic_code_image_description">
+        10 PRINT \"HELLO WORLD\"
+        20 GOTO 10
+    </string>
+    <string name="ada_code_image_description">
+        with Ada.Text_IO; use Ada.Text_IO;
+
+        procedure AdaSample is
+        begin
+           for i in 1 .. 10 loop
+              Put_Line(\"Hello, world\");
+           end loop;
+        end AdaSample;
+    </string>
+    <string name="ocaml_code_image_description">
+        let rec triangle n =
+            if n &lt; 1 then 0
+            else n + triangle (n-1)
+
+        let () =
+            let res = triangle 10 in
+            Printf.printf \"%d\" res
+    </string>
+    <string name="visual_basic_code_image_description">
+        Module SampleModule
+            Sub Main()
+                Dim Value As Integer = 30
+                While Value > 0
+                    Console.WriteLine("Value is " &amp; Value)
+                    Value -= 1
+                End While
+            End Sub
+        End Module
+    </string>
+    <string name="cobol_code_image_description">
+                   IDENTIFICATION DIVISION.
+           PROGRAM-ID. COBOL-SAMPLE.
+           DATA DIVISION.
+               WORKING-STORAGE SECTION.
+                   77 X PIC 99.
+           PROCEDURE DIVISION.
+               SET X TO 30.
+               DISPLAY /"The value of X is /"X.
+           STOP RUN.
+    </string>
+    <string name="r_code_image_description">
+        bitmap(file=\"out.png\")
+
+        plot(c(1,2,3,4,5), c(1,4,9,16,25))
+    </string>
+    <string name="swift_code_image_description">
+        var total = 0
+        for i in 0..*&lt;10 {
+            total += i
+            print(\"The value of total is \(total).\")
+        }
+    </string>
+    <string name="lua_code_image_description">
+        planets = {\"Mercury\", \"Venus\", \"Earth\", \"Mars\",
+        \"Jupiter\", \"Saturn\", \"Uranus\", \"Neptune\"}
+
+        print("Planets of the Solar System")
+        for i, v in ipairs(planets) do
+            print(v)
+        end
+    </string>
+    <string name="f_sharp_code_image_description">
+        let squares list =
+            for i in list do
+                printfn \"The square of %d is %d\" i (i * i)
+
+        squares [1..6]
+    </string>
+    <string name="objective_c_code_image_description">
+        #import &lt;Foundation/Foundation.h&gt;
+        #include &lt;stdio.h&gt;
+
+        int main (int argc, const char * argv[])
+        {
+            NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+
+            NSArray *array = [NSArray arrayWithObjects: @\"one\", @\"two\", @\"three\", nil];
+
+            for(NSString *value in array){
+                 NSLog(value);
+            }
+
+            [pool drain];
+            return 0;
+        }
+    </string>
+    <string name="ruby_code_image_description">
+        birthstones = [\"garnet\", \"amethyst\", \"aquamarine\",
+        \"diamond\", \"emerald\", \"alexandrite\",
+        \"ruby\", \"peridot\", \"sapphire\",
+         \"tourmaline\", \"topaz\", \"blue topaz\"]
+
+         print \"birthstones:\\n\"
+         birthstones.each {
+           |birthstone| print birthstones.find_index(birthstone), \" is \", birthstone, "\n"
+         }
+    </string>
+    <string name="sql_code_image_description">
+        SELECT * FROM SampleTable
+        WHERE SampleColumn > 3
+    </string>
+    <string name="php_code_image_description">
+        &lt;?php
+            $a = 3;
+            $b = 6;
+            if($a &lt; $b) {
+            echo "a is smaller than b";
+            }
+            elseif ($b &lt; $a) {
+            echo "b is smaller than a";
+            }
+            else {
+            echo "a and b are equal";
+            }
+            ?&gt;
+    </string>
+    <string name="bash_code_image_description">
+        echo \"Type to the console, then press enter (Press Ctrl + C to exit)\"
+        while read -r line; do
+            echo \"${line^^}\"
+        done
+    </string>
+    <string name="assembly_code_image_description">
+        section .text
+            global _start
+
+        _start:
+            mov edx, len    ;moves message length to register
+            mov ecx, msg    ;moves message to register
+            mov ebx, 1      ;file descriptor (stdout)
+            mov eax, 4      ;system call (sys_write)
+            int 0x80        ;calls kernel
+
+            mov eax, 1      ;system call  (sys_exit)
+            int 0x80        ;calls kernel
+
+        section .data
+            msg db \"Hello, world\", 10 ;sets value to "Hello, world" and linebreak
+            len equ $ -msg ;sets value to length of msg
+    </string>
+    <string name="fortran_code_image_description">
+        program fortranSample
+
+            character(len = 12) :: greeting
+            greeting = \"Hello, world\"
+            print *, greeting
+
+        end program fortranSample
+    </string>
+    <string name="elm_code_image_description">
+        import Html exposing (text)
+
+        numbers =
+          [1,2,3,4,5]
+
+        main =
+          text (\"There are \" ++ String.fromInt (List.length numbers) ++ \" numbers in the list.\")
+    </string>
 </resources>
