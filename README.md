@@ -1,6 +1,6 @@
 # ThirtyDaysApp
 
-]# Introduction
+## Introduction
 This is an Android application that shows a scrollable stack of 30 cards relating to a different programming language. This is based on the 30 Days project on the Android developers website ([viewable here](https://developer.android.com/codelabs/basic-android-kotlin-compose-30-days#0)).
 The application can be built and run using Android Studio.
 
