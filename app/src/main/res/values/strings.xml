@@ -1,22 +1,28 @@
 <resources>
     <string name="app_name">ThirtyDaysApp</string>
-    <string name="test_title">Test Title</string>
+    <string name="app_title">30 Days App</string>
     <string name="test_caption">Test caption</string>
 
     <!--General strings, only used once in the application-->
     <string name="logo_descriptor">A logo for the programming language </string>
     <string name="coding_sample">Coding sample</string>
+    <string name="back">Back</string>
     <string name="about_this_app">About this application</string>
     <string name="app_information">
-        This application shows a list of 30 programming languages. Each card features information
-        about a specific language and an image showcasing a sample program written in that
-        language.
+        This application shows information about 30 different programming languages, including
+        a brief summary of each language\'s history and functionality, and a sample program written
+        in the language. Tap one of the cards to view information about that language.
     </string>
     <string name="app_information_2">
         The programs featured have been tested with a variety of compilers, including
         those on the website JDoodle (https://www.jdoodle.com). Please note that some of these
         programs may not work depending on the language version or software you are using.
     </string>
+
+    
+    <!--Labels for enum class of views-->
+    <string name="home">Home</string>
+    <string name="summary">Summary</string>
 
     <!--Stores the names of the programming languages-->
     <string name="c_caption">C</string>
